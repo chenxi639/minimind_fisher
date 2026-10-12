@@ -1,0 +1,228 @@
+{
+  "status": "passed",
+  "external_evaluated": false,
+  "test_evaluated": false,
+  "runs": {
+    "1729/k1": {
+      "status": "passed",
+      "steps": 1024,
+      "tokens": 4176264,
+      "trainable_parameters": 148352,
+      "final_dev": {
+        "fp32": {
+          "ce": 1.7563846798422666,
+          "ppl": 5.791461512436661,
+          "tokens": 265051
+        },
+        "bf16": {
+          "ce": 1.7566012541150204,
+          "ppl": 5.792715929834263,
+          "tokens": 265051
+        }
+      },
+      "backbone_unchanged": true,
+      "reload_exact": true,
+      "disabled_probe_exact": true,
+      "checkpoint_sha256": "a9f9b667de43835e1c1d2c8a723befc7d8b0488f0356bd53f4013d3f30f578df",
+      "seconds": 747.2914745000016
+    },
+    "1729/current": {
+      "status": "passed",
+      "steps": 1024,
+      "tokens": 4176264,
+      "trainable_parameters": 148224,
+      "final_dev": {
+        "fp32": {
+          "ce": 1.7562880771286444,
+          "ppl": 5.790902068561054,
+          "tokens": 265051
+        },
+        "bf16": {
+          "ce": 1.7565288338061988,
+          "ppl": 5.792296434747874,
+          "tokens": 265051
+        }
+      },
+      "backbone_unchanged": true,
+      "reload_exact": true,
+      "disabled_probe_exact": true,
+      "checkpoint_sha256": "56adc5d73c2a83a2f4177cba4a2d057551ea82a60127f295df9ce3530efe5ffd",
+      "seconds": 736.4196222000028
+    },
+    "1729/lora": {
+      "status": "passed",
+      "steps": 1024,
+      "tokens": 4176264,
+      "trainable_parameters": 150528,
+      "final_dev": {
+        "fp32": {
+          "ce": 1.7369818829340435,
+          "ppl": 5.680174095809609,
+          "tokens": 265051
+        },
+        "bf16": {
+          "ce": 1.7372362400624504,
+          "ppl": 5.68161907234372,
+          "tokens": 265051
+        }
+      },
+      "backbone_unchanged": true,
+      "reload_exact": true,
+      "disabled_probe_exact": true,
+      "checkpoint_sha256": "6bcdede4ca5545bd9e1b9dda2e42a54a4444a97fec95e644d4a40cdf31d2cdbc",
+      "seconds": 764.0333174999978
+    },
+    "2718/k1": {
+      "status": "passed",
+      "steps": 1024,
+      "tokens": 4176264,
+      "trainable_parameters": 148352,
+      "final_dev": {
+        "fp32": {
+          "ce": 1.7563383475449585,
+          "ppl": 5.791193186936135,
+          "tokens": 265051
+        },
+        "bf16": {
+          "ce": 1.7566136793070377,
+          "ppl": 5.79278790588915,
+          "tokens": 265051
+        }
+      },
+      "backbone_unchanged": true,
+      "reload_exact": true,
+      "disabled_probe_exact": true,
+      "checkpoint_sha256": "b709be35c8451f71f5f6e2c4efe05d8fc022a8f8d7527340b4f06b9016c6fab1",
+      "seconds": 649.8726358000022
+    },
+    "2718/current": {
+      "status": "passed",
+      "steps": 1024,
+      "tokens": 4176264,
+      "trainable_parameters": 148224,
+      "final_dev": {
+        "fp32": {
+          "ce": 1.7562699852773012,
+          "ppl": 5.790797301369405,
+          "tokens": 265051
+        },
+        "bf16": {
+          "ce": 1.7564786612441285,
+          "ppl": 5.7920058276857835,
+          "tokens": 265051
+        }
+      },
+      "backbone_unchanged": true,
+      "reload_exact": true,
+      "disabled_probe_exact": true,
+      "checkpoint_sha256": "be621c8436dc70b0e4dd0230546bc54c3818144e17ad882bf0a788ed8469ff37",
+      "seconds": 379.09542169999986
+    },
+    "2718/lora": {
+      "status": "passed",
+      "steps": 1024,
+      "tokens": 4176264,
+      "trainable_parameters": 150528,
+      "final_dev": {
+        "fp32": {
+          "ce": 1.7369329793553576,
+          "ppl": 5.679896321760893,
+          "tokens": 265051
+        },
+        "bf16": {
+          "ce": 1.7371654156296448,
+          "ppl": 5.681216689144953,
+          "tokens": 265051
+        }
+      },
+      "backbone_unchanged": true,
+      "reload_exact": true,
+      "disabled_probe_exact": true,
+      "checkpoint_sha256": "806daf3c29378de8f0c3030e7371d599bf3bdfb76338f5cd4cc335100a0764de",
+      "seconds": 515.5615988999998
+    },
+    "31415/k1": {
+      "status": "passed",
+      "steps": 1024,
+      "tokens": 4176264,
+      "trainable_parameters": 148352,
+      "final_dev": {
+        "fp32": {
+          "ce": 1.756313159201502,
+          "ppl": 5.7910473182102224,
+          "tokens": 265051
+        },
+        "bf16": {
+          "ce": 1.756575212378845,
+          "ppl": 5.79256507941849,
+          "tokens": 265051
+        }
+      },
+      "backbone_unchanged": true,
+      "reload_exact": true,
+      "disabled_probe_exact": true,
+      "checkpoint_sha256": "d1e61a2c59bd607627fde36ae0dd615506f2650156b1826c763b3e9da54637e8",
+      "seconds": 381.23824629999945
+    },
+    "31415/current": {
+      "status": "passed",
+      "steps": 1024,
+      "tokens": 4176264,
+      "trainable_parameters": 148224,
+      "final_dev": {
+        "fp32": {
+          "ce": 1.756300856926594,
+          "ppl": 5.790976075592333,
+          "tokens": 265051
+        },
+        "bf16": {
+          "ce": 1.7565745817008913,
+          "ppl": 5.792561426176552,
+          "tokens": 265051
+        }
+      },
+      "backbone_unchanged": true,
+      "reload_exact": true,
+      "disabled_probe_exact": true,
+      "checkpoint_sha256": "421e0b0017524dae7d96130a3cf7cddb014cf206c260e454fc799c5108a34a72",
+      "seconds": 375.16664800000217
+    },
+    "31415/lora": {
+      "status": "passed",
+      "steps": 1024,
+      "tokens": 4176264,
+      "trainable_parameters": 150528,
+      "final_dev": {
+        "fp32": {
+          "ce": 1.7374854898330514,
+          "ppl": 5.683035391095374,
+          "tokens": 265051
+        },
+        "bf16": {
+          "ce": 1.7378005299249621,
+          "ppl": 5.684826057138303,
+          "tokens": 265051
+        }
+      },
+      "backbone_unchanged": true,
+      "reload_exact": true,
+      "disabled_probe_exact": true,
+      "checkpoint_sha256": "b9d3f81e7f7790782927ef320eb0e17753bbb0fc5616dc7edd5af05975c47b55",
+      "seconds": 515.3446758999999
+    }
+  },
+  "baseline": {
+    "fp32": {
+      "ce": 1.7575751502854506,
+      "ppl": 5.798360181706242,
+      "tokens": 265051
+    },
+    "bf16": {
+      "ce": 1.757924726958623,
+      "ppl": 5.800387507500674,
+      "tokens": 265051
+    }
+  },
+  "per_seed_exposure_matched": true,
+  "source_sha256": "51dd8cfe5ef4f3ff0535ec9cc90ae21e4911cfb6b7ab5eb89c2460a788ecf273"
+}

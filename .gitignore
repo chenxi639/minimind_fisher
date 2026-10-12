@@ -1,0 +1,22 @@
+# Local assets and workflow outputs; keep evidence summaries explicitly reviewable.
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+*.local.json
+*.local.toml
+*.pt
+*.pth
+*.safetensors
+*.bin
+*.jsonl
+*.tsv
+*.log
+runs/
+checkpoints/
+release_candidates/
+smoke_output/
+resume_output/
+.DS_Store
